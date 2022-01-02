@@ -8,9 +8,9 @@
 ##### - &nbsp;  &emsp;
 ***
 
-~~~mermaid
+```mermaid
 graph LR
-  A[えういあ] --> B[おいう]
-  B --> C[re]
-  C --> A
-~~~
+  A[えういあ]-->B[おいう]
+  B-->C[re]
+  C-->A
+```
