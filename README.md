@@ -9,12 +9,15 @@
 ***
 
 ```mermaid
-graph LR
-  A[起床] --> B[朝食]
-  B --> C[作業]
-  C --> D[昼食]
-  D --> E[作業]
-  E --> F[夕飯]
-  F --> G[就寝]
-  G --> A
-```
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts<br/>prevail...
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+\```
